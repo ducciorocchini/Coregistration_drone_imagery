@@ -29,11 +29,8 @@ Interactive co-registration of drone multispectral bands:
 ## Example Plots
 | 3-band False Color | R + G | R + NIR |
 |-------------------|-------|---------|
-| ![Before vs After](result_images/before vs. after coregistration.jpeg) | ![R+G](result_images/red+green_before_after.jpeg) | ![R+NIR](result_images/red+nir_before_after.jpeg) |
-
-| False-color 3-band Before | After |
-|---------------------------|-------|
-| ![Before](figures/stack_before.png) | ![After](figures/stack_aligned.png) |
+![Before vs After](result_images/before%20vs.%20after%20coregistration.jpeg)
+| ![R+G](result_images/red+green_before_after.jpeg) | ![R+NIR](result_images/red+nir_before_after.jpeg) |
 
 > Save plots in `figures/` folder using R’s `png()` if needed.
 
