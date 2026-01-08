@@ -37,5 +37,4 @@ Interactive co-registration of drone multispectral bands:
 ### Red + NIR
 ![R+NIR Before vs After](result_images/red+nir_before_after.jpeg)
 
-> Save plots in `figures/` folder using R’s `png()` if needed.
 
