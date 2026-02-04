@@ -1,6 +1,8 @@
 
 # Drone data automatic band alignment — RGB Before/After
 
+> Script: coreg_correl.R
+
 ## Overview
 
 This script loads three single-band rasters (Green, Red, NIR), stacks them into a multi-layer object, and visualizes an RGB composite.  
