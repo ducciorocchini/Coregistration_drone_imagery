@@ -6,6 +6,15 @@ nir = rast("DJI_20251115110614_0003_MS_NIR.tiff")
 ms = c(gre, red, nir)
 plotRGB(ms, r=3, g=2, b=1, stretch="lin")
 
+# other sets
+#library(terra)
+#setwd("/Users/ducciorocchini/Desktop/DJI_202511151151_002")
+#gre = rast("DJI_20251128093951_0003_MS_G.TIF")
+#red = rast("DJI_20251128093951_0003_MS_R.TIF")
+#nir = rast("DJI_20251128093951_0003_MS_NIR.TIF")
+
+
+
 band_names <- c("Green", "Red", "NIR")
 
 # Convert raster layers to matrices
