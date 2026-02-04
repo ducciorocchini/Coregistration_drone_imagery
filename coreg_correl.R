@@ -8,10 +8,6 @@ gre = rast("ms_crop_gre.tif")
 red = rast("ms_crop_red.tif")
 nir = rast("ms_crop_nir.tif")
 
-gre = flip(gre)
-red = flip(red)
-nir = flip(nir)
-
 ms = c(gre, red, nir)
 plotRGB(ms, r=3, g=2, b=1, stretch="lin")
 
