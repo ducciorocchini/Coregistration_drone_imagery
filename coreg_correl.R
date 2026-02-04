@@ -1,8 +1,17 @@
 library(terra)
-setwd("~/Downloads/")
-gre = rast("DJI_20251115110614_0003_MS_G.tiff")
-red = rast("DJI_20251115110614_0003_MS_R.tiff")
-nir = rast("DJI_20251115110614_0003_MS_NIR.tiff")
+setwd("~/Desktop/")
+# gre = rast("DJI_20251115110614_0003_MS_G.tiff")
+# red = rast("DJI_20251115110614_0003_MS_R.tiff")
+# nir = rast("DJI_20251115110614_0003_MS_NIR.tiff")
+
+gre = rast("ms_crop_gre.tif")
+red = rast("ms_crop_red.tif")
+nir = rast("ms_crop_nir.tif")
+
+gre = flip(gre)
+red = flip(red)
+nir = flip(nir)
+
 ms = c(gre, red, nir)
 plotRGB(ms, r=3, g=2, b=1, stretch="lin")
 
