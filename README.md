@@ -1,5 +1,7 @@
 # Coregistration of Multispectral Drone Images in R
 
+> Script: coreg_correl.R
+
 This document describes a simple, correlation-based workflow to **coregister multispectral drone imagery** (Green, Red, NIR) using **R** and the **terra** package.
 
 The approach aligns bands by searching for the spatial shift that maximizes pixel-wise correlation with a reference band (here: **Red**).
